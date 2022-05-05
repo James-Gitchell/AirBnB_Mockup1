@@ -1,10 +1,11 @@
-import React from "react";
+import React from "react"
+import Navbar from "./components/Navbar"
 
-export default function App(){
-    return(
-         <>
-            <h1>This is the app component that will render the page</h1>
-         </>
-
+export default function App() {
+    return (
+        <>
+         <Navbar    />
+        <h1>App component</h1>
+        </>
     )
 }
